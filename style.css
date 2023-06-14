@@ -1,1 +1,66 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
 
+}
+.country{
+    background-color: none;
+    border-style: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid cadetblue;
+}
+.img-header{
+    width: 30%;
+}
+.btn-search{
+    background-color: yellow;
+    font-size: 16px;
+    padding: 6px 10px;
+    border-style: none;
+    margin-left: 200px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    position: absolute;
+}
+.input-s-b{
+    align-items: center;
+    display: flex;
+}
+.search-input{
+    position: relative;
+    font-size: 16px;
+    padding: 3px 10px;
+}
+.visible {
+    display: block;
+  }
+
+  .humidity1{
+    display: flex;
+    align-items: center;
+  }
+  .cards{
+    display: flex;
+  }
+  .result{
+    
+    padding: 10px 20px;
+    color: #ffff;
+    margin-top: 20px ;
+    margin-left: 20px;
+    background-color: rgb(123, 123, 128);
+    border-radius: 10px;
+  }
+  .img-icon{
+    box-shadow: 4px 4px 4px 4px rgb(53, 49, 49);
+    border-radius: 100px;
+  }
